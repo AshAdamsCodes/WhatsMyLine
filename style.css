@@ -17,13 +17,18 @@
 #display{
     background-color: #F6F6F4;
     display: inline-block;
-    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     border: 5px solid #F3DF5A;
     border-radius: 5px;
     color: #3A3A3A;
+    height: 100px; 
+    width: 300px; 
+    text-align: center;
+
 }
 
-#button{
+#button_press_me{
     background-color: #B05DDF;
     color: #F6F6F4;
     font-size: 15px;
@@ -37,11 +42,18 @@
   display: inline-block;
   padding: 20px;
   background-color: #F6F6F4;
-  width: 450px; 
 }
 
 .container_img img{
   height: 250px; 
   position: relative;
  
+}
+
+#button_add_a_sentence{
+  background-color:  #D74840;
+  color: #F6F6F4;
+  font-size: 15px;
+  padding: 10px 50px;
+  border-radius: 12px;
 }

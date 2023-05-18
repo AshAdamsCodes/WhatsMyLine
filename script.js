@@ -206,9 +206,18 @@ const getSentence = () => {
     return sentences[index];
 }
 
-const button = document.getElementById('button');
+const button_press_me = document.getElementById('button_press_me');
 const display = document.getElementById('display');
+const button_add_a_sentence = document.getElementById('submit');
 
-button.addEventListener('click', () => {
+button_press_me.addEventListener('click', () => {
     display.innerHTML = getSentence(); 
 });
+
+
+
+
+/*button_add_a_sentence.addEventListener('click', () => {
+    const newSent = getElementById('newSentence').value; 
+    sentences.push(newSent);
+})*/
