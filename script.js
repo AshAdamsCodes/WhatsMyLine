@@ -208,16 +208,15 @@ const getSentence = () => {
 
 const button_press_me = document.getElementById('button_press_me');
 const display = document.getElementById('display');
-const button_add_a_sentence = document.getElementById('submit');
+const button_add_a_sentence = document.getElementById('button_add_a_sentence');
 
 button_press_me.addEventListener('click', () => {
     display.innerHTML = getSentence(); 
 });
 
 
-
-
-/*button_add_a_sentence.addEventListener('click', () => {
-    const newSent = getElementById('newSentence').value; 
+button_add_a_sentence.addEventListener('click', () => {
+    let newSent = document.getElementById('newSentence').value; 
     sentences.push(newSent);
-})*/
+    document.getElementById('newSentence').value = ''; 
+})
